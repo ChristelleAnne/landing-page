@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap');
 
 body {
     font-family: Roboto;
@@ -112,4 +112,28 @@ button {
 .fact {
     text-align: center;
     font-size: 18px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding: 120px 300px;
+    background-color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.passage {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+
+}
+
+.author {
+    font-size: 24px;
+    font-weight: bold;
+    align-self: flex-end;
 }
