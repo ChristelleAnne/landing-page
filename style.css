@@ -70,6 +70,46 @@ button {
     align-self: flex-start;
 }
 
-img {
+.art {
     width: 380px;
+}
+
+.infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 220px 100px 220px;
+    gap: 50px;
+}
+
+.fun-facts {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.deck {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.card {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.planet {
+    width: 200px;
+    /* border: 5px solid #3882f6; */
+    border-radius: 20px;
+}
+
+.fact {
+    text-align: center;
+    font-size: 18px;
 }
